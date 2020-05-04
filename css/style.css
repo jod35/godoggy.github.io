@@ -46,6 +46,9 @@ a {
   text-transform: capitalize;
   border: 2px solid white;
 }
+.mobile-btn{
+  display: none;
+}
 .show-case-top {
   /* position: absolute; */
   height: 150px;
@@ -95,6 +98,7 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
   background-color: rgb(243, 233, 233);
 }
 
@@ -204,7 +208,7 @@ input[type='text']{
   .logo{
     text-align: center;
   }
-  .links{
+ .links{
     display: none;
   }
   .icon{
@@ -212,4 +216,35 @@ input[type='text']{
     padding: 20px;
     color: var(--primary-color);
   }
+  #overlay{
+    height: 72%;
+  }
+
+  .show-case-content{
+    font-size: 0.8rem;
+  }
+  .btn-lg{
+    padding:10px;
+    font-size: 1rem;
+  }
+  .desktop-btn{
+    display: none;
+  }
+  .mobile-btn{
+    display: block;
+  }
+  .offers{
+    display: block;
+    background-image: linear-gradient(24deg,darkslategray,var(--primary-color));
+    height: 500px;
+  }
+  .offer-box{
+    width: 100%;
+  }
+  .contact-us{
+    display: block;
+    position: unset;
+  }
+
+  
 }

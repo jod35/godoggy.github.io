@@ -18,11 +18,21 @@
     <header class="show-case">
       <!-- nav bar -->
       <div class="show-case-top">
-        <img src="./img/logo1.png" alt="" srcset="" class="logo" />
+        <a href="index.html"
+          ><img src="./img/logo1.png" alt="" srcset="" class="logo"
+        /></a>
         <a href="#" class="icon" onclick="myFunction()">
           <i class="fa fa-bars fa-2x"></i>
         </a>
         <div class="links" id="links">
+          <a href="login.html" class="btn btn-round login link">Sign In</a>
+          <a href="signup.html" class="btn btn-round sign-up link">Sign Up</a>
+          <a href="#contact-us" class="btn btn-round sign-up link"
+            >Contact Us</a
+          >
+        </div>
+
+        <div class="overlay">
           <a href="#" class="btn btn-round login link">Sign In</a>
           <a href="#" class="btn btn-round sign-up link">Sign Up</a>
         </div>
@@ -147,12 +157,12 @@
     </section>
 
     <!-- Another section for pricing -->
-    <section class="contact-us">
+    <section class="contact-us" id="contact-us">
       <div class="contact-text">
         <h1>We love to hear from you.</h1>
         <p>Your feedback improves our service</p>
       </div>
-      <div class="contact-form">
+      <div class="contact-form" id="#contact-form">
         <h2>Contact Us</h2>
 
         <input

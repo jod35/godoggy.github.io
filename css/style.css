@@ -25,6 +25,10 @@ ul {
 a {
   text-decoration: none;
 }
+a:hover {
+  text-decoration: none;
+  color: initial;
+}
 
 .show-case {
   background: url("../img/back.jpeg") no-repeat center center/cover;
@@ -232,7 +236,9 @@ footer {
   padding: 20px;
   /* text-align: center; */
 }
-
+.form i {
+  text-align: center;
+}
 .myfield {
   background-color: inherit;
 }

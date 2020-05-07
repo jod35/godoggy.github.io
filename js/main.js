@@ -4,6 +4,7 @@ const show_case = document.querySelector(".show-case");
 const body = document.querySelector("body");
 
 const menu_close = document.querySelector(".menu-close");
+
 // const header = document.querySelector(".show-case");
 
 menu_button.addEventListener("click", () => {
@@ -16,6 +17,7 @@ menu_button.addEventListener("click", () => {
   overlay.style.justifyContent = "center";
   overlay.style.alignItems = "center";
   overlay.style.flexDirection = "column";
+
   // body.style.position = "fixed";
   show_case.style.width = "100%";
 });

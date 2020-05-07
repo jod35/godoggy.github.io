@@ -37,7 +37,7 @@ a {
   height: 70px;
 }
 
-.btn {
+.mybtn {
   background-color: var(--primary-color);
   cursor: pointer;
   color: white;
@@ -72,9 +72,10 @@ a {
   opacity: 0.7;
 }
 
-.btn:hover {
+.mybtn:hover {
   border: 1px solid var(--primary-color);
   font-weight: bold;
+  opacity: 1;
 }
 
 .btn-lg {
@@ -189,7 +190,7 @@ a {
   color: white;
   /* border-bottom-right-radius: 300px; */
 }
-input[type="text"] {
+.contact-form input[type="text"] {
   padding: 20px;
   width: 80%;
 }
@@ -284,4 +285,13 @@ footer {
 .footer-icon {
   padding: 20px;
   color: var(--primary-color);
+}
+.form {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(25, 36, 36);
+  color: var(--primary-color);
+  opacity: 0.9;
+  padding: 20px;
+  text-align: center;
 }

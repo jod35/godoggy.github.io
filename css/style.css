@@ -237,6 +237,43 @@ footer {
 .myfield {
   background-color: inherit;
 }
+
+.nav {
+  background-color: var(--gray);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+.menu-home {
+  color: var(--primary-color);
+  padding: 5px 20px 5px 25px;
+}
+
+.vertical-menu {
+  width: 30%;
+  background-color: var(--dark);
+  opacity: 0.9;
+  height: 80vh;
+}
+
+.vertical-menu {
+  display: none;
+}
+.vertical-menu a {
+  display: block;
+  padding: 20px;
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+.vertical-menu a:hover {
+  color: white;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+}
 @media (max-width: 600px) {
   .logo {
     text-align: center;
@@ -278,6 +315,7 @@ footer {
   .contact-us {
     display: block;
   }
+
   .contact-text {
     /* display: none; */
     width: 100%;
@@ -320,5 +358,8 @@ footer {
   }
   .show-case {
     width: 100%;
+  }
+  .nav {
+    text-align: center;
   }
 }

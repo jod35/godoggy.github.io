@@ -204,6 +204,36 @@ a {
 .overlay {
   display: none;
 }
+
+footer {
+  height: 200px;
+  background-color: var(--dark);
+  color: var(--primary-color);
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon {
+  padding: 20px;
+  color: var(--primary-color);
+}
+.form {
+  width: 40%;
+  margin: auto;
+  background-color: rgb(25, 36, 36);
+  border: 5px solid var(--primary-color);
+  border-radius: 7px;
+  color: var(--primary-color);
+  opacity: 0.9;
+  padding: 20px;
+  /* text-align: center; */
+}
+
+.myfield {
+  background-color: inherit;
+}
 @media (max-width: 600px) {
   .logo {
     text-align: center;
@@ -231,7 +261,6 @@ a {
     display: block;
   }
   .services {
-    padding: 0;
   }
   .offers {
     display: block;
@@ -260,6 +289,7 @@ a {
 
   .box {
     display: block;
+    width: 100%;
   }
 
   .box-photo {
@@ -270,28 +300,7 @@ a {
   .contact-form {
     height: 100vh;
   }
-}
-
-footer {
-  height: 200px;
-  background-color: var(--dark);
-  color: var(--primary-color);
-}
-.icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.footer-icon {
-  padding: 20px;
-  color: var(--primary-color);
-}
-.form {
-  width: 80%;
-  margin: auto;
-  background-color: rgb(25, 36, 36);
-  color: var(--primary-color);
-  opacity: 0.9;
-  padding: 20px;
-  text-align: center;
+  .form {
+    width: 80%;
+  }
 }

@@ -120,7 +120,9 @@ a {
   margin: 20px;
   width: 70%;
 }
-
+.box-center {
+  transform: scale(1.2);
+}
 .icon {
   display: none;
 }
@@ -144,14 +146,14 @@ a {
 .offer-box {
   margin-top: 20px;
   background: rgb(29, 28, 28);
-  color: white;
+  color: var(--primary-color);
   padding: 20px;
-  border: 5px var(--dark) solid;
+  border: 5px var(--primary-color) solid;
   border-radius: 7px;
   opacity: 0.9;
   height: 400px;
   margin: 20px;
-  width: 30%;
+  width: 100%;
   text-align: center;
 }
 
@@ -264,13 +266,13 @@ footer {
   }
   .offers {
     display: block;
-    padding: unset;
+    padding: 0;
     height: 100%;
     background: none;
   }
   .offer-box {
     width: 100%;
-    height: 30%;
+    height: 100%;
   }
   .contact-us {
     display: block;
@@ -296,9 +298,15 @@ footer {
     width: 100%;
     height: 300px;
   }
+  .box-txt {
+    display: none;
+  }
 
   .contact-form {
-    height: 100vh;
+    height: 80%;
+  }
+  .box-center {
+    transform: scale(1);
   }
   .form {
     width: 80%;

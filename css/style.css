@@ -362,4 +362,8 @@ footer {
   .nav {
     text-align: center;
   }
+  .vertical-menu{
+   width:100%;
+  
+}
 }

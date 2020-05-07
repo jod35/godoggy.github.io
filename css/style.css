@@ -93,11 +93,6 @@ a:hover {
   border-radius: 7px;
 }
 
-.overlay {
-  width: 100%;
-  background-color: var(--dark);
-}
-
 .services {
   width: 100%;
   display: flex;
@@ -316,5 +311,13 @@ footer {
   }
   .form {
     width: 80%;
+  }
+
+  .overlay a {
+    padding: 20px;
+    color: var(--primary-color);
+  }
+  .show-case {
+    width: 100%;
   }
 }

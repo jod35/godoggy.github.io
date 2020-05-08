@@ -2,7 +2,6 @@ const menu_button = document.querySelector(".menu");
 const overlay = document.querySelector(".overlay");
 const show_case = document.querySelector(".show-case");
 const body = document.querySelector("body");
-
 const menu_close = document.querySelector(".menu-close");
 
 // const header = document.querySelector(".show-case");
@@ -25,4 +24,8 @@ menu_button.addEventListener("click", () => {
 menu_close.addEventListener("click", () => {
   overlay.style.display = "none";
   show_case.style.width = "100%";
+});
+
+home_menu.addEventListener("click", () => {
+  console.log("hey");
 });

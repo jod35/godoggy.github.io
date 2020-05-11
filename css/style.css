@@ -252,10 +252,10 @@ footer {
 }
 
 .vertical-menu {
-  width: 30%;
+  width: 25%;
   background-color: var(--dark);
   opacity: 0.9;
-  height: 80vh;
+  height: 100vh;
 }
 
 .vertical-menu {
@@ -361,6 +361,8 @@ footer {
   }
   .nav {
     text-align: center;
+    animation-name: display;
+    animation-duration: 3s;
   }
   .vertical-menu{
    width:100%;

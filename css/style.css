@@ -13,7 +13,7 @@
 
 html {
   /* scroll-behavior: smooth; */
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -103,10 +103,12 @@ a:hover {
 
 .box {
   margin: 20px;
-  border: 5px solid white;
+  /* border: 5px solid white; */
   display: flex;
-  border-radius: 7px;
-  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.404);
+  /* border-radius: 7px; */
+  padding: 20px;
+  height: 30%;
+  /* box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.404); */
 }
 .box-photo img {
   width: 100%;
@@ -118,22 +120,23 @@ a:hover {
 .box-content {
   margin: 20px;
   width: 70%;
+  padding: 20px;
 }
-.box-center {
+/* .box-center {
   transform: scale(1.2);
-}
+} */
 .icon {
   display: none;
 }
 
-.box-side {
+/* .box-side {
   background-color: var(--primary-color);
   color: white;
-}
-.box-mid {
+} */
+/* .box-mid {
   background-color: var(--dark);
   color: white;
-}
+} */
 .offers {
   display: flex;
   background: url("../img/back2.jpeg") center center/cover no-repeat;
@@ -244,6 +247,11 @@ footer {
   display: flex;
   justify-content: space-between;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .menu-home {
@@ -260,6 +268,7 @@ footer {
 
 .vertical-menu {
   display: none;
+  margin-top: 8%;
 }
 .vertical-menu a {
   display: block;
@@ -273,6 +282,26 @@ footer {
   text-decoration: none;
   padding: 20px;
   border: 1px solid var(--primary-color);
+}
+.user-profile {
+  display: flex;
+  justify-content: s;
+}
+.user {
+  margin-top: 8%;
+  border: 1px solid black;
+  background-color: var(--dark);
+  color: white;
+  height: 600px;
+  width: 30%;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.user-image {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
 }
 @media (max-width: 600px) {
   .logo {
